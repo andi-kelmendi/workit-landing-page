@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fraunces", serif;
+}
+.partie1 {
+    background-color: #2e004f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    text-align: center;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+}
+
+header {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.access-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+h1 {
+    padding: 20rem 30rem 40px 30rem;
+    font-size: 80px;
+}
+
+span {
+    border-bottom: #00ffb2 3px solid;
+}
+
+.partie2 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nombre {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boite1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.boite2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boite3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+
+h3 {
+    padding-bottom: 20px;
+    padding-top: 35px;
+}
+
+button {
+    color: #2e004f;
+    background-color: #00ffb2;
+    border: none;
+}
+
+button:hover {
+    color: #00ffb2;
+    background-color: #2e004f;
+    border: 1px solid #00ffb2;
+}
